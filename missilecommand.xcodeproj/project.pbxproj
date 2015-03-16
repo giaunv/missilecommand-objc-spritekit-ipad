@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94A509851AB74FD100905E82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A509841AB74FD100905E82 /* main.m */; };
+		94A509881AB74FD100905E82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A509871AB74FD100905E82 /* AppDelegate.m */; };
+		94A5098B1AB74FD100905E82 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A5098A1AB74FD100905E82 /* GameScene.m */; };
+		94A5098D1AB74FD100905E82 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94A5098C1AB74FD100905E82 /* GameScene.sks */; };
+		94A509901AB74FD100905E82 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A5098F1AB74FD100905E82 /* GameViewController.m */; };
+		94A509931AB74FD100905E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A509911AB74FD100905E82 /* Main.storyboard */; };
+		94A509951AB74FD100905E82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A509941AB74FD100905E82 /* Images.xcassets */; };
+		94A509981AB74FD100905E82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A509961AB74FD100905E82 /* LaunchScreen.xib */; };
+		94A509A41AB74FD100905E82 /* missilecommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A509A31AB74FD100905E82 /* missilecommandTests.m */; };
+		94A509B71AB7509300905E82 /* enemyMissile.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509AE1AB7509300905E82 /* enemyMissile.png */; };
+		94A509B81AB7509300905E82 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509AF1AB7509300905E82 /* explosion.png */; };
+		94A509B91AB7509300905E82 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B01AB7509300905E82 /* flower.png */; };
+		94A509BA1AB7509300905E82 /* flowerBullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B11AB7509300905E82 /* flowerBullet.png */; };
+		94A509BB1AB7509300905E82 /* multiBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B21AB7509300905E82 /* multiBtn.png */; };
+		94A509BC1AB7509300905E82 /* protectCreature2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B31AB7509300905E82 /* protectCreature2.png */; };
+		94A509BD1AB7509300905E82 /* protectCreature4.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B41AB7509300905E82 /* protectCreature4.png */; };
+		94A509BE1AB7509300905E82 /* singleBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B51AB7509300905E82 /* singleBtn.png */; };
+		94A509BF1AB7509300905E82 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B61AB7509300905E82 /* title.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94A5099E1AB74FD100905E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A509771AB74FD100905E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A5097E1AB74FD100905E82;
+			remoteInfo = missilecommand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94A5097F1AB74FD100905E82 /* missilecommand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = missilecommand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A509831AB74FD100905E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A509841AB74FD100905E82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94A509861AB74FD100905E82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94A509871AB74FD100905E82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94A509891AB74FD100905E82 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		94A5098A1AB74FD100905E82 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		94A5098C1AB74FD100905E82 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		94A5098E1AB74FD100905E82 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		94A5098F1AB74FD100905E82 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		94A509921AB74FD100905E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94A509941AB74FD100905E82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94A509971AB74FD100905E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94A5099D1AB74FD100905E82 /* missilecommandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = missilecommandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A509A21AB74FD100905E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A509A31AB74FD100905E82 /* missilecommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = missilecommandTests.m; sourceTree = "<group>"; };
+		94A509AE1AB7509300905E82 /* enemyMissile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemyMissile.png; sourceTree = "<group>"; };
+		94A509AF1AB7509300905E82 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		94A509B01AB7509300905E82 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		94A509B11AB7509300905E82 /* flowerBullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flowerBullet.png; sourceTree = "<group>"; };
+		94A509B21AB7509300905E82 /* multiBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiBtn.png; sourceTree = "<group>"; };
+		94A509B31AB7509300905E82 /* protectCreature2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = protectCreature2.png; sourceTree = "<group>"; };
+		94A509B41AB7509300905E82 /* protectCreature4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = protectCreature4.png; sourceTree = "<group>"; };
+		94A509B51AB7509300905E82 /* singleBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleBtn.png; sourceTree = "<group>"; };
+		94A509B61AB7509300905E82 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A5097C1AB74FD100905E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A5099A1AB74FD100905E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A509761AB74FD100905E82 = {
+			isa = PBXGroup;
+			children = (
+				94A509811AB74FD100905E82 /* missilecommand */,
+				94A509A01AB74FD100905E82 /* missilecommandTests */,
+				94A509801AB74FD100905E82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94A509801AB74FD100905E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A5097F1AB74FD100905E82 /* missilecommand.app */,
+				94A5099D1AB74FD100905E82 /* missilecommandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A509811AB74FD100905E82 /* missilecommand */ = {
+			isa = PBXGroup;
+			children = (
+				94A509861AB74FD100905E82 /* AppDelegate.h */,
+				94A509871AB74FD100905E82 /* AppDelegate.m */,
+				94A509891AB74FD100905E82 /* GameScene.h */,
+				94A5098A1AB74FD100905E82 /* GameScene.m */,
+				94A5098C1AB74FD100905E82 /* GameScene.sks */,
+				94A5098E1AB74FD100905E82 /* GameViewController.h */,
+				94A5098F1AB74FD100905E82 /* GameViewController.m */,
+				94A509911AB74FD100905E82 /* Main.storyboard */,
+				94A509941AB74FD100905E82 /* Images.xcassets */,
+				94A509AD1AB7509300905E82 /* Resources */,
+				94A509961AB74FD100905E82 /* LaunchScreen.xib */,
+				94A509821AB74FD100905E82 /* Supporting Files */,
+			);
+			path = missilecommand;
+			sourceTree = "<group>";
+		};
+		94A509821AB74FD100905E82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A509831AB74FD100905E82 /* Info.plist */,
+				94A509841AB74FD100905E82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A509A01AB74FD100905E82 /* missilecommandTests */ = {
+			isa = PBXGroup;
+			children = (
+				94A509A31AB74FD100905E82 /* missilecommandTests.m */,
+				94A509A11AB74FD100905E82 /* Supporting Files */,
+			);
+			path = missilecommandTests;
+			sourceTree = "<group>";
+		};
+		94A509A11AB74FD100905E82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94A509A21AB74FD100905E82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94A509AD1AB7509300905E82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94A509AE1AB7509300905E82 /* enemyMissile.png */,
+				94A509AF1AB7509300905E82 /* explosion.png */,
+				94A509B01AB7509300905E82 /* flower.png */,
+				94A509B11AB7509300905E82 /* flowerBullet.png */,
+				94A509B21AB7509300905E82 /* multiBtn.png */,
+				94A509B31AB7509300905E82 /* protectCreature2.png */,
+				94A509B41AB7509300905E82 /* protectCreature4.png */,
+				94A509B51AB7509300905E82 /* singleBtn.png */,
+				94A509B61AB7509300905E82 /* title.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A5097E1AB74FD100905E82 /* missilecommand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A509A71AB74FD100905E82 /* Build configuration list for PBXNativeTarget "missilecommand" */;
+			buildPhases = (
+				94A5097B1AB74FD100905E82 /* Sources */,
+				94A5097C1AB74FD100905E82 /* Frameworks */,
+				94A5097D1AB74FD100905E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = missilecommand;
+			productName = missilecommand;
+			productReference = 94A5097F1AB74FD100905E82 /* missilecommand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94A5099C1AB74FD100905E82 /* missilecommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A509AA1AB74FD100905E82 /* Build configuration list for PBXNativeTarget "missilecommandTests" */;
+			buildPhases = (
+				94A509991AB74FD100905E82 /* Sources */,
+				94A5099A1AB74FD100905E82 /* Frameworks */,
+				94A5099B1AB74FD100905E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A5099F1AB74FD100905E82 /* PBXTargetDependency */,
+			);
+			name = missilecommandTests;
+			productName = missilecommandTests;
+			productReference = 94A5099D1AB74FD100905E82 /* missilecommandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A509771AB74FD100905E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = 366;
+				TargetAttributes = {
+					94A5097E1AB74FD100905E82 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					94A5099C1AB74FD100905E82 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 94A5097E1AB74FD100905E82;
+					};
+				};
+			};
+			buildConfigurationList = 94A5097A1AB74FD100905E82 /* Build configuration list for PBXProject "missilecommand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A509761AB74FD100905E82;
+			productRefGroup = 94A509801AB74FD100905E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A5097E1AB74FD100905E82 /* missilecommand */,
+				94A5099C1AB74FD100905E82 /* missilecommandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A5097D1AB74FD100905E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A509981AB74FD100905E82 /* LaunchScreen.xib in Resources */,
+				94A509951AB74FD100905E82 /* Images.xcassets in Resources */,
+				94A509BF1AB7509300905E82 /* title.png in Resources */,
+				94A509BE1AB7509300905E82 /* singleBtn.png in Resources */,
+				94A509BA1AB7509300905E82 /* flowerBullet.png in Resources */,
+				94A5098D1AB74FD100905E82 /* GameScene.sks in Resources */,
+				94A509B91AB7509300905E82 /* flower.png in Resources */,
+				94A509B81AB7509300905E82 /* explosion.png in Resources */,
+				94A509BB1AB7509300905E82 /* multiBtn.png in Resources */,
+				94A509BC1AB7509300905E82 /* protectCreature2.png in Resources */,
+				94A509931AB74FD100905E82 /* Main.storyboard in Resources */,
+				94A509B71AB7509300905E82 /* enemyMissile.png in Resources */,
+				94A509BD1AB7509300905E82 /* protectCreature4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A5099B1AB74FD100905E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A5097B1AB74FD100905E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A509901AB74FD100905E82 /* GameViewController.m in Sources */,
+				94A509881AB74FD100905E82 /* AppDelegate.m in Sources */,
+				94A5098B1AB74FD100905E82 /* GameScene.m in Sources */,
+				94A509851AB74FD100905E82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A509991AB74FD100905E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A509A41AB74FD100905E82 /* missilecommandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94A5099F1AB74FD100905E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A5097E1AB74FD100905E82 /* missilecommand */;
+			targetProxy = 94A5099E1AB74FD100905E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94A509911AB74FD100905E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A509921AB74FD100905E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94A509961AB74FD100905E82 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A509971AB74FD100905E82 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94A509A51AB74FD100905E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		94A509A61AB74FD100905E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A509A81AB74FD100905E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = missilecommand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94A509A91AB74FD100905E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = missilecommand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94A509AB1AB74FD100905E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = missilecommandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/missilecommand.app/missilecommand";
+			};
+			name = Debug;
+		};
+		94A509AC1AB74FD100905E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = missilecommandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/missilecommand.app/missilecommand";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A5097A1AB74FD100905E82 /* Build configuration list for PBXProject "missilecommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A509A51AB74FD100905E82 /* Debug */,
+				94A509A61AB74FD100905E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A509A71AB74FD100905E82 /* Build configuration list for PBXNativeTarget "missilecommand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A509A81AB74FD100905E82 /* Debug */,
+				94A509A91AB74FD100905E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94A509AA1AB74FD100905E82 /* Build configuration list for PBXNativeTarget "missilecommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A509AB1AB74FD100905E82 /* Debug */,
+				94A509AC1AB74FD100905E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A509771AB74FD100905E82 /* Project object */;
+}

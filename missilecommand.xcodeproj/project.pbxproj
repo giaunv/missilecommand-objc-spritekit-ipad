@@ -26,6 +26,7 @@
 		94A509BE1AB7509300905E82 /* singleBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B51AB7509300905E82 /* singleBtn.png */; };
 		94A509BF1AB7509300905E82 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A509B61AB7509300905E82 /* title.png */; };
 		94A509C21AB752A700905E82 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A509C11AB752A700905E82 /* MenuScene.m */; };
+		94A509C51AB75B1300905E82 /* MultiScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A509C41AB75B1300905E82 /* MultiScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		94A509B61AB7509300905E82 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		94A509C01AB752A700905E82 /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		94A509C11AB752A700905E82 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
+		94A509C31AB75B1300905E82 /* MultiScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiScene.h; sourceTree = "<group>"; };
+		94A509C41AB75B1300905E82 /* MultiScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				94A5098A1AB74FD100905E82 /* GameScene.m */,
 				94A509C01AB752A700905E82 /* MenuScene.h */,
 				94A509C11AB752A700905E82 /* MenuScene.m */,
+				94A509C31AB75B1300905E82 /* MultiScene.h */,
+				94A509C41AB75B1300905E82 /* MultiScene.m */,
 				94A5098C1AB74FD100905E82 /* GameScene.sks */,
 				94A5098E1AB74FD100905E82 /* GameViewController.h */,
 				94A5098F1AB74FD100905E82 /* GameViewController.m */,
@@ -281,6 +286,7 @@
 				94A509C21AB752A700905E82 /* MenuScene.m in Sources */,
 				94A509881AB74FD100905E82 /* AppDelegate.m in Sources */,
 				94A5098B1AB74FD100905E82 /* GameScene.m in Sources */,
+				94A509C51AB75B1300905E82 /* MultiScene.m in Sources */,
 				94A509851AB74FD100905E82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

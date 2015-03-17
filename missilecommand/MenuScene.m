@@ -20,20 +20,22 @@
 @implementation MenuScene
 -(id)initWithSize:(CGSize)size{
     if (self = [super initWithSize:size]) {
-        self.backgroundColor = [SKColor colorWithRed:(198.0/255.0) green:(220.0/255.0) blue:(54.0/255.0) alpha:1.0];
-        SKSpriteNode *title = [SKSpriteNode spriteNodeWithImageNamed:@"title"];
-        title.zPosition = 2;
-        title.scale = 0.4;
-        title.position = CGPointMake(size.width/2, size.height/2);
-        [self addChild:title];
         
-        sizeGlobal = size;
     }
     
     return self;
 }
 
 -(void)didMoveToView:(SKView *)view{
+    self.backgroundColor = [SKColor colorWithRed:(198.0/255.0) green:(220.0/255.0) blue:(54.0/255.0) alpha:1.0];
+    SKSpriteNode *title = [SKSpriteNode spriteNodeWithImageNamed:@"title"];
+    title.zPosition = 2;
+    title.scale = 0.4;
+    title.position = CGPointMake(self.size.width/2, self.size.height/2);
+    [self addChild:title];
+    
+    sizeGlobal = self.size;
+    
     UIImage *buttonImageNormal = [UIImage imageNamed:@"singleBtn.png"];
     singlePlayerButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     singlePlayerButton.frame = CGRectMake(sizeGlobal.height/8, sizeGlobal.width/2+250, buttonImageNormal.size.width, buttonImageNormal.size.height);

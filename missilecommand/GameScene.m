@@ -62,6 +62,36 @@
     // Add Monsters
     [self addMonstersBetweenSpace:1];
     [self addMonstersBetweenSpace:2];
+    
+    // Create Actions
+    SKAction *wait = [SKAction waitForDuration:2];
+    SKAction *createMissiles = [SKAction runBlock:^{
+        [self addMissilesFromSky:self.size];
+    }];
+    
+    SKAction *updateMissiles = [SKAction sequence:@[wait, createMissiles]];
+    [self runAction:[SKAction repeatActionForever:updateMissiles]];
+}
+
+-(void)addMissilesFromSky:(CGSize)size{
+    int numberMissiles = [self getRandomNumberBetween:0 to:3];
+    
+    for (int i = 0; i < numberMissiles; i++) {
+        SKSpriteNode *missile;
+        missile = [SKSpriteNode spriteNodeWithImageNamed:@"enemyMissile"];
+        missile.scale = 0.6;
+        missile.zPosition = 1;
+        
+        int startPoint = [self getRandomNumberBetween:0 to:self.size.width];
+        missile.position = CGPointMake(startPoint, size.height);
+        
+        int endPoint = [self getRandomNumberBetween:0 to:self.size.width];
+        SKAction *move = [SKAction moveTo:CGPointMake(endPoint, 0) duration:15];
+        SKAction *remove = [SKAction removeFromParent];
+        [missile runAction:[SKAction sequence:@[move, remove]]];
+        
+        [self addChild:missile];
+    }
 }
 
 -(void)addFlowerCommand{

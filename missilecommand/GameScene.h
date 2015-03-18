@@ -8,7 +8,13 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface GameScene : SKScene{
+typedef enum: NSUInteger{
+    ExplosionCategory = (1 << 0),
+    MissileCategory = (1 << 1),
+    MonsterCategory = (1 << 2)
+} NodeCatagory;
+
+@interface GameScene : SKScene<SKPhysicsContactDelegate>{
     CGSize sizeGlobal;
     
     SKLabelNode *labelflowerBullets1;
